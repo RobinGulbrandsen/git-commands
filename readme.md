@@ -4,23 +4,20 @@ Open repository with cheat cheep git commands. This document will be updated wit
 
 # Commands
 
-**Initiate git for the directory
-git init
+**Initiate git for the directory**
+	git init
 
 **Add file to git version control**
-git add [filename]
-git add [foldername]
-git add .
+	git add [filename]
+	git add [foldername]
+	git add .
 
 **Commit files with message on "m" flag**
-git commit -m "[message]"
+	git commit -m "[message]"
 
-**Add which remote location code should be commited to#
-git remote add [name of the repository] [git repository]
-
-e.g.
-
-git remote add origin https://github.com/RobinGulbrandsen/git-commands.git
+**Add which remote location code should be commited to**
+	git remote add [name of the repository] [git repository]
+	git remote add origin https://github.com/RobinGulbrandsen/git-commands.git
 
 **Push til git repo**
 	git push -u [name of the repository] [branch]
