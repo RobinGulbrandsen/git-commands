@@ -62,3 +62,8 @@ Now you got a new branch with no files in it.
 
 #### Rolback changes from file or folder that has not been commited
     git checkout [file or folder]
+
+#### More then one command
+If you wish to run more then one command at one line, you can use the **&&** annotation.
+
+    git init && git add .
