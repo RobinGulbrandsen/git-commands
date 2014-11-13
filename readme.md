@@ -21,8 +21,18 @@ Open repository with cheat cheep git commands. This document will be updated wit
     git remote add origin https://github.com/RobinGulbrandsen/git-commands.git
 
 #### Push til git repo
+
+First time you push
+
     git push -u [name of the repository] [branch]
     git push -u origin master
+
+*Basically, you use this flag when you want to set origin as the upstream remote for a branch. This is needed if you don't want to manually specify the remote every time you use git pull.* -CodeGnome
+
+After the upstream has been set you can use 
+
+    git push [name of the repository] [branch]
+    git push origin master
 
 #### Clone repository from GitHub to local machine
     git clone [source]
