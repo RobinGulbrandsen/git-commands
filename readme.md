@@ -50,7 +50,7 @@ Now you got a new branch with no files in it.
 
 1. Swtich to the branch you want the files to be copied to
 
-    git checkout new-dev-branch
+    git checkout [branch name]
 
 2. Get the files or folders you want to copy over
 
