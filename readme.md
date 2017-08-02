@@ -77,3 +77,8 @@ Now you got a new branch with no files in it.
 If you wish to run more then one command at one line, you can use the **&&** annotation.
 
     git init && git add .
+    
+#### File name too long
+Using git bash, you might come across an error with Filename too long. to enable long file names use
+
+    git config --system core.longpaths true
